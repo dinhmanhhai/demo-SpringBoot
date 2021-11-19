@@ -1,0 +1,26 @@
+# SPRING CONFIG
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    data:
+      pageable:
+        max-page-size: 1
+  #    mongodb:
+  #      uri: jdbc:mysql://localhost:3306/book
+  #      database: book
+  #      collection:
+  #        info-ekyc: info_ekyc
+  #        info-ekyc-history: info_ekyc_history
+  #        info-ekyc-status: info_ekyc_status
+  #        info-appointment: ekyc_appointment_info
+  #        info-ekyc-contract: ekyc_contract_info
+  #        info-ekyc-meeting: ekyc_meeting_info
+  #        contract-status-response: contract_status_response
+  #    DATASOURCE MARIADB
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?createDatabaseIfNotExist=false&autoReconnect=true&UseUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 2911
+
